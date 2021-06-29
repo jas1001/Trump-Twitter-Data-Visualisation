@@ -1,0 +1,412 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+/* Graphs */
+#selectTweets {
+    position: absolute;
+    left: 84%;
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgb(208, 208, 210);
+    border: 2px solid #ffffff; 
+    font-size: 20px;
+    padding: 0px 0px 0px 20px;
+    z-index: 2;
+}
+#selectTweets:hover {
+    background-color: rgb(160, 160, 160);
+    color: white;
+}
+
+#plotDiv {
+    position: absolute;
+    background-color: white;
+    left: 51.5%;
+    border-radius: 5px;
+}
+#plotDiv2 {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    left: 1.5%;
+}
+
+#graphSteal {
+    border-radius: 5px;
+    position: relative;
+    left: -5%;
+}
+
+/* Parallax */
+.parallax {
+    /* The image used */
+    background-image: url("bgimg1.jpg");
+    min-height: 740px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax2 {
+    background-image: url("bgimg5.jpg");
+    min-height: 2500px; 
+    background-position: center;
+    background-attachment:absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #parallax3 {
+    background-image: url("bgimg4.jpg");
+    min-height: 800px; 
+    background-position: center;
+    background-attachment:absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .square {
+    height: 350px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(115, 206, 255);
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 0;
+  }
+
+/* Titles and Sub Headings */
+  /* https://codepen.io/ryandsouza13/pen/yEBJQV */
+.title {
+    position: absolute;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 12em;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+  }
+
+.caption {
+    position: absolute;
+    left: 0%;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.caption span.border {
+    background-color: black;
+    color: rgb(173 163 163);
+    padding: 18px;
+    font-size: 40px;
+    letter-spacing: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.description {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px 20px 20px 20px;
+    text-align: justify;
+    font-family: Helvetica, sans-serif;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    width: 40%;
+    }
+    
+.caption2 {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.caption2 span.border2 {
+    background-color: black;
+    color: rgb(173 163 163);
+    padding: 18px;
+    font-size: 20px;
+    letter-spacing: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.caption3 {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.caption3 span.border3 {
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.caption4 {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.caption4 span.border4 {
+     color: black;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.caption5 {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.caption5 span.border5 {
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.caption6 {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.caption6 span.border6 {
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.caption7 {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.caption7 span.border7 {
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.caption8 {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.caption8 span.border8 {
+    background-color: black;
+    color: rgb(173 163 163);
+    padding: 18px;
+    font-size: 20px;
+    letter-spacing: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.caption9 {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+.caption9 span.border9 {
+    color: black;
+    padding: 10px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+/* Content */
+
+h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-align: center;   
+}
+
+h1 {
+    font-size: 60px;
+    margin: 8px 0px 0px 0px;
+    font-style: italic;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-column-gap: 50px;
+    padding: 10px;
+    position: relative;
+    align-content: center;
+  }
+  .grid-container > .grid-item img {
+    width: 90%;
+    border-radius: 5px;
+ }
+  
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: 1fr 49%;
+    grid-column-gap: 50px;
+    padding: 10px;
+    position: relative;
+    align-content: center;
+  }
+
+  .grid-container5 {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    grid-column-gap: 90px;
+    padding: 10px;
+    position: relative;
+    align-content: center;
+  }
+  .grid-containerText {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 50px;
+    padding: 10px 10px 10px 20px;
+    position: relative;
+    align-content: center;
+  }
+  .grid-container2 > .grid-item img {
+    width: 90%;
+    border-radius: 5px;
+  }
+
+  .grid-item {
+    text-align: center;
+    font-size: 30px;
+    height: 145px;
+    border-radius: 5px;
+    margin: 0px 20px 0px 0px;
+  }
+
+  .item2 {
+    grid-row: 2/3;
+    font-size: 13px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 25px 40px 10px 40px;
+    margin: 0px 15px 0px 0px;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+
+  .grid-container6 {
+    display: grid;
+    grid-template-columns: 50% 50% 1fr;
+    grid-column-gap: 50px;
+    padding: 10px;
+    position: relative;
+    align-content: center;
+  }
+  .grid-container6 > .grid-item img {
+    width: 90%;
+    border-radius: 5px;
+  }
+
+  .grid-item6 {
+    font-size: 13px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 15px 0px 0px;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+
+  .grid-item7 {
+    font-size: 13px;
+    height: 200px;
+    border-radius: 5px;
+    padding: 70px 30px 10px 70px;
+    margin: 0px 15px 0px 0px;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+
+.graphText {
+    font-size: 13px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 25px 50px 10px 50px;
+    margin: 0px 15px 0px 0px;
+    letter-spacing: 2px;
+    line-height: 20px; 
+}
+.graphText2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 13px;
+    height: 100px;
+    border-radius: 5px;
+    padding: 30px 50px 30px 50px;
+    margin: 0px 15px 0px 0px;
+    letter-spacing: 2px;
+    line-height: 20px; 
+}
+.grid-item5 {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    height: 150px;
+    border-radius: 200px;
+    margin: 0px 20px 0px 0px;
+    padding: 20px;
+  }
